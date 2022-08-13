@@ -14,6 +14,10 @@
         <h2>Login</h2>
         <form action="/adminLogin" method="POST">
             @csrf
+            <!-- <div class="field">
+                <label>Name</label>
+                <input name="name" type="text" required>
+            </div> -->
             <div class="field">
                 <label>Admin</label>
                 <input name="email" type="text" required>
